@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1F2937"/>
+  <rect x="10" y="10" width="780" height="380" rx="10" fill="#374151"/>
+  <text x="400" y="200" font-family="Arial" font-size="24" fill="white" text-anchor="middle">
+    Dashboard Preview
+  </text>
+  <text x="400" y="240" font-family="Arial" font-size="16" fill="#9CA3AF" text-anchor="middle">
+    Smart RoadSos AI Emergency Dashboard
+  </text>
+</svg>

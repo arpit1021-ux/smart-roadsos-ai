@@ -1,7 +1,7 @@
 import { useEffect, useRef, useCallback, useState } from 'react';
 import { initSocket, joinAccidentRoom, onAccidentUpdate, offAccidentUpdate } from '../services/socket';
 
-const useSocket = (accidentId = null) => {
+export const useSocket = (accidentId = null) => {
   const socketRef = useRef(null);
   const [isConnected, setIsConnected] = useState(false);
 

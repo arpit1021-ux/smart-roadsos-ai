@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const useGeolocation = (options = {}) => {
+export const useGeolocation = (options = {}) => {
   const {
     enableHighAccuracy = true,
     timeout = 10000,
